@@ -15,6 +15,8 @@
 		66F2BC7F1C9A4125004354E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F2BC7D1C9A4125004354E4 /* LaunchScreen.storyboard */; };
 		66F2BC8A1C9A4125004354E4 /* LJTDropDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F2BC891C9A4125004354E4 /* LJTDropDownTests.m */; };
 		66F2BC951C9A4125004354E4 /* LJTDropDownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F2BC941C9A4125004354E4 /* LJTDropDownUITests.m */; };
+		66F2BCA51C9A4321004354E4 /* LJTDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F2BCA41C9A4321004354E4 /* LJTDropDown.m */; };
+		66F2BCA71C9AA532004354E4 /* README.MD in Sources */ = {isa = PBXBuildFile; fileRef = 66F2BCA61C9AA532004354E4 /* README.MD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		66F2BC901C9A4125004354E4 /* LJTDropDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJTDropDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F2BC941C9A4125004354E4 /* LJTDropDownUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJTDropDownUITests.m; sourceTree = "<group>"; };
 		66F2BC961C9A4126004354E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F2BCA31C9A4321004354E4 /* LJTDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTDropDown.h; sourceTree = "<group>"; };
+		66F2BCA41C9A4321004354E4 /* LJTDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTDropDown.m; sourceTree = "<group>"; };
+		66F2BCA61C9AA532004354E4 /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		66F2BC631C9A4125004354E4 = {
 			isa = PBXGroup;
 			children = (
+				66F2BCA61C9AA532004354E4 /* README.MD */,
 				66F2BC6E1C9A4125004354E4 /* LJTDropDown */,
 				66F2BC881C9A4125004354E4 /* LJTDropDownTests */,
 				66F2BC931C9A4125004354E4 /* LJTDropDownUITests */,
@@ -101,6 +107,7 @@
 		66F2BC6E1C9A4125004354E4 /* LJTDropDown */ = {
 			isa = PBXGroup;
 			children = (
+				66F2BCA21C9A4159004354E4 /* DropDown */,
 				66F2BC721C9A4125004354E4 /* AppDelegate.h */,
 				66F2BC731C9A4125004354E4 /* AppDelegate.m */,
 				66F2BC751C9A4125004354E4 /* ViewController.h */,
@@ -138,6 +145,15 @@
 				66F2BC961C9A4126004354E4 /* Info.plist */,
 			);
 			path = LJTDropDownUITests;
+			sourceTree = "<group>";
+		};
+		66F2BCA21C9A4159004354E4 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				66F2BCA31C9A4321004354E4 /* LJTDropDown.h */,
+				66F2BCA41C9A4321004354E4 /* LJTDropDown.m */,
+			);
+			path = DropDown;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +289,8 @@
 				66F2BC771C9A4125004354E4 /* ViewController.m in Sources */,
 				66F2BC741C9A4125004354E4 /* AppDelegate.m in Sources */,
 				66F2BC711C9A4125004354E4 /* main.m in Sources */,
+				66F2BCA51C9A4321004354E4 /* LJTDropDown.m in Sources */,
+				66F2BCA71C9AA532004354E4 /* README.MD in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
