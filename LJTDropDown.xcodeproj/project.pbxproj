@@ -17,6 +17,7 @@
 		66F2BC951C9A4125004354E4 /* LJTDropDownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F2BC941C9A4125004354E4 /* LJTDropDownUITests.m */; };
 		66F2BCA51C9A4321004354E4 /* LJTDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F2BCA41C9A4321004354E4 /* LJTDropDown.m */; };
 		66F2BCA71C9AA532004354E4 /* README.MD in Sources */ = {isa = PBXBuildFile; fileRef = 66F2BCA61C9AA532004354E4 /* README.MD */; };
+		66F2BCAA1C9AA6F8004354E4 /* dropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F2BCA91C9AA6F8004354E4 /* dropdown.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		66F2BCA31C9A4321004354E4 /* LJTDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTDropDown.h; sourceTree = "<group>"; };
 		66F2BCA41C9A4321004354E4 /* LJTDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTDropDown.m; sourceTree = "<group>"; };
 		66F2BCA61C9AA532004354E4 /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
+		66F2BCA91C9AA6F8004354E4 /* dropdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropdown.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		66F2BC631C9A4125004354E4 = {
 			isa = PBXGroup;
 			children = (
+				66F2BCA81C9AA6EE004354E4 /* resource */,
 				66F2BCA61C9AA532004354E4 /* README.MD */,
 				66F2BC6E1C9A4125004354E4 /* LJTDropDown */,
 				66F2BC881C9A4125004354E4 /* LJTDropDownTests */,
@@ -154,6 +157,14 @@
 				66F2BCA41C9A4321004354E4 /* LJTDropDown.m */,
 			);
 			path = DropDown;
+			sourceTree = "<group>";
+		};
+		66F2BCA81C9AA6EE004354E4 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				66F2BCA91C9AA6F8004354E4 /* dropdown.png */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 				66F2BC7F1C9A4125004354E4 /* LaunchScreen.storyboard in Resources */,
 				66F2BC7C1C9A4125004354E4 /* Assets.xcassets in Resources */,
 				66F2BC7A1C9A4125004354E4 /* Main.storyboard in Resources */,
+				66F2BCAA1C9AA6F8004354E4 /* dropdown.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
